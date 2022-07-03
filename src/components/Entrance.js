@@ -57,7 +57,7 @@ const Entrance = ({params}) => {
    
     const getData = async () => {
         if (params.link !== 'null') {
-            let dat = await axios.get(`/${params.link}`)
+            let dat = await axios.get(`https://vuz-portfolio.herokuapp.com/${params.link}`)
 
             setData(dat.data)
         }

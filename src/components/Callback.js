@@ -33,7 +33,7 @@ const Callback = () => {
  
 
     const onSend = async () => {
-        await axios.post('/email', {
+        await axios.post('https://vuz-portfolio.herokuapp.com/email', {
             form
         })
     }

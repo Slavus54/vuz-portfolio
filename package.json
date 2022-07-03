@@ -24,7 +24,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://vuz-portfolio.herokuapp.com",
   "browserslist": {
     "production": [
       ">0.2%",
